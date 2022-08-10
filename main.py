@@ -1,4 +1,5 @@
 from cProfile import label
+from cgitb import text
 from tkinter import *
 
 root = Tk()
@@ -11,6 +12,7 @@ fr1 = Frame()
 fr2 = Frame()
 fr3 = Frame()
 fr4 = Frame()
+fr5 = Frame()
 
 #frame0
 fr0_img_1 = PhotoImage(file="imagens\\barber.png")
@@ -41,7 +43,7 @@ fr3_lab = Label(fr3,image=fr3_img_1,width=480).grid(row=0,column=0,sticky=W)
 #frame4
 fr4_img = PhotoImage(file="imagens\\serviço.png")
 fr4_lab = Label(fr4, image=fr4_img,width=480).grid(row=0,column=0,sticky=W)
-
+fr4_bt = Button(fr4, text="corte na tesoura")
 
 fr0.grid()
 root.mainloop()
