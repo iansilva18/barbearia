@@ -1,3 +1,4 @@
+from cProfile import label
 from tkinter import *
 
 root = Tk()
@@ -36,6 +37,10 @@ fr2_bt0 = Button(fr2,  text="Cadastrar",command=lambda: [fr2.grid_remove(),fr4.g
 #frame3
 fr3_img_1 = PhotoImage(file="imagens\\cdsbarb.png")
 fr3_lab = Label(fr3,image=fr3_img_1,width=480).grid(row=0,column=0,sticky=W)
+
+#frame4
+fr4_img = PhotoImage(file="imagens\\serviço.png")
+fr4_lab = Label(fr4, image=fr4_img,width=480).grid(row=0,column=0,sticky=W)
 
 
 fr0.grid()
