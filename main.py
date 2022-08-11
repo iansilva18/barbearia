@@ -48,17 +48,40 @@ fr4_lab = Label(fr4, image=fr4_img,width=480).grid(row=0,column=0,sticky=W)
 fr4_bt = Button(fr4, text="corte na tesoura", command=lambda: [fr4.grid_remove(),fr5.grid(),root.geometry("490x560+610+153"),root.title("Agenda")]
                 ,bg='#1d1f21',font='arimo 8',highlightcolor='#1d1f21', highlightbackground='#1d1f21',highlightthickness=0,bd='0',activebackground='#1d1f21',fg='#F6F9F8').place(width=111,height=15, x=8, y=435)
 
-fr4_bt = Button(fr4, text="pezinho", command=lambda: [fr4.grid_remove(),fr5.grid(),root.geometry("490x560+610+153"),root.title("TESTE BUTTON")]
+fr4_bt = Button(fr4, text="pezinho", command=lambda: [fr4.grid_remove(),fr5.grid(),root.geometry("490x560+610+153"),root.title("Agenda")]
                 ,bg='#1d1f21',font='arimo 8',highlightcolor='#1d1f21', highlightbackground='#1d1f21',highlightthickness=0,bd='0',activebackground='#1d1f21',fg='#F6F9F8').place(width=111,height=15, x=130, y=435)
 
-fr4_bt = Button(fr4, text="corte moderno", command=lambda: [fr4.grid_remove(),fr5.grid(),root.geometry("490x560+610+153"),root.title("TESTE BUTTON")]
+fr4_bt = Button(fr4, text="corte moderno", command=lambda: [fr4.grid_remove(),fr5.grid(),root.geometry("490x560+610+153"),root.title("Agenda")]
                 ,bg='#1d1f21',font='arimo 8',highlightcolor='#1d1f21', highlightbackground='#1d1f21',highlightthickness=0,bd='0',activebackground='#1d1f21',fg='#F6F9F8').place(width=111,height=15, x=240, y=435)
 
-fr4_bt = Button(fr4, text="lavagem", command=lambda: [fr4.grid_remove(),fr5.grid(),root.geometry("490x560+610+153"),root.title("TESTE BUTTON")]
+fr4_bt = Button(fr4, text="lavagem", command=lambda: [fr4.grid_remove(),fr5.grid(),root.geometry("490x560+610+153"),root.title("Agenda")]
                 ,bg='#1d1f21',font='arimo 8',highlightcolor='#1d1f21', highlightbackground='#1d1f21',highlightthickness=0,bd='0',activebackground='#1d1f21',fg='#F6F9F8').place(width=111,height=15, x=355, y=435)
 
-fr4_bt = Button(fr4, text="barba", command=lambda: [fr4.grid_remove(),fr5.grid(),root.geometry("490x560+610+153"),root.title("TESTE BUTTON")]
+fr4_bt = Button(fr4, text="barba", command=lambda: [fr4.grid_remove(),fr5.grid(),root.geometry("490x560+610+153"),root.title("Agenda")]
                 ,bg='#1d1f21',font='arimo 8',highlightcolor='#1d1f21', highlightbackground='#1d1f21',highlightthickness=0,bd='0',activebackground='#1d1f21',fg='#F6F9F8').place(width=111,height=15, x=185, y=540)
+
+#tela de agenda
+
+fr5_image = PhotoImage(file="imagens\\agenda.png")
+fr5_lab = Label(fr5,image=fr5_image,width=480).grid(row=0,column=0,sticky=W)
+
+#buttons tela de agenda
+
+fr5_bt = Button(fr5, text="9:00 am", command=lambda: [fr4.grid_remove(),fr5.grid(),root.geometry("490x560+610+153"),root.title("Agenda")]
+                ,bg='#FFFFFF',font='arimo 15',highlightcolor='#FFFFFF', highlightbackground='#FFFFFF',highlightthickness=0,bd='0',activebackground='#ffffff',fg='#1D1F21').place(width=111,height=15, x=33, y=293)
+
+r5_bt = Button(fr5, text="10:00 am", command=lambda: [fr4.grid_remove(),fr5.grid(),root.geometry("490x560+610+153"),root.title("Agenda")]
+                ,bg='#FFFFFF',font='arimo 15',highlightcolor='#FFFFFF', highlightbackground='#FFFFFF',highlightthickness=0,bd='0',activebackground='#ffffff',fg='#1D1F21').place(width=111,height=15, x=173, y=293)
+
+r5_bt = Button(fr5, text="11:00 am", command=lambda: [fr4.grid_remove(),fr5.grid(),root.geometry("490x560+610+153"),root.title("Agenda")]
+                ,bg='#FFFFFF',font='arimo 15',highlightcolor='#FFFFFF', highlightbackground='#FFFFFF',highlightthickness=0,bd='0',activebackground='#ffffff',fg='#1D1F21').place(width=111,height=15, x=320, y=293)
+
+r5_bt = Button(fr5, text="13:00 am", command=lambda: [fr4.grid_remove(),fr5.grid(),root.geometry("490x560+610+153"),root.title("Agenda")]
+                ,bg='#FFFFFF',font='arimo 15',highlightcolor='#FFFFFF', highlightbackground='#FFFFFF',highlightthickness=0,bd='0',activebackground='#ffffff',fg='#1D1F21').place(width=111,height=15, x=33, y=385)
+
+r5_bt = Button(fr5, text="14:00 am", command=lambda: [fr4.grid_remove(),fr5.grid(),root.geometry("490x560+610+153"),root.title("Agenda")]
+                ,bg='#FFFFFF',font='arimo 15',highlightcolor='#FFFFFF', highlightbackground='#FFFFFF',highlightthickness=0,bd='0',activebackground='#ffffff',fg='#1D1F21').place(width=111,height=15, x=173, y=385)
+
 
 
 
